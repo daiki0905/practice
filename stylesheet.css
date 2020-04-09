@@ -12,7 +12,14 @@ li {
   text-align: center;
 }
 
-.long {
+a{
+  text-decoration: none;
+}
+
+.home {
+  background-color: rgba(0, 0, 56);
+}
+.crowdfunding {
   min-width: 200px;
 }
 
@@ -26,11 +33,13 @@ header {
   z-index: 10;
 }
 
+
+
 .header-logo {
   float: left;
   font-size: 30px;
   padding:22px;
-    background-color: rgba(0, 0, 56);
+  background-color: rgba(0, 0, 56);
 }
 
 .flex-list {
@@ -47,6 +56,11 @@ header {
 
 .header li {
   flex: auto;
+}
+
+li a {
+  color: white;
+  display:block;
 }
 
 .top-wrapper-bg{
@@ -87,10 +101,6 @@ header {
   margin: 0 auto;
   margin-top: 150px;
   margin-bottom: 530px ;
-}
-
-a{
-  text-decoration: none;
 }
 
 .btn {
